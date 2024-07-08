@@ -3,15 +3,19 @@
 int main()
 {
     int c;
+    int in_blank = 0;
 
     while ((c = getchar()) != EOF) {
-        switch (c) {
-            case (' '): {
-                c = '\b';
+        if (c == ' ') {
+            if (!in_blank) {
+                putchar(c);
+                in_blank = 1;
             }
+        } else {
+            putchar(c);
+            in_blank = 0;
         }
     }
 
-    printf("%d", c);
     return 0;
 }
