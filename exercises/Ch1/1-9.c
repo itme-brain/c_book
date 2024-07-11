@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+    Page 20:
+    Write a program to copy its input to its output, replacing each of
+    one or more blanks by a single blank
+*/
+
 int main()
 {
     int c;

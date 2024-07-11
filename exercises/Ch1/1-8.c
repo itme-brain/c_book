@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+    Page 20:
+    Write a program to count blanks, tabs, and newlines
+*/
+
 int main()
 {
     int blanks, tabs, newlines;

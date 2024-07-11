@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+    Page 24:
+    Write a program to print a histogram of the lengths of words in its input.
+    It is easy to draw the histogram with the bars horizontal; a vertical
+    orientation is more challenging.
+*/
+
 int main()
 {
     int c, in_word, word_length;
